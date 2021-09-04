@@ -46,7 +46,7 @@ describe('employees', function() {
 
     it('does not modify the original employee (it is non-destructive)', function () {
       deleteFromEmployeeByKey(employee, 'name');
-
+0
       expect(employee['name']).to.equal('Sam');
     });
   });
